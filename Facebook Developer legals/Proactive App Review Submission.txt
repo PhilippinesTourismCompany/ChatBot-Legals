@@ -1,0 +1,24 @@
+Proactive App Review Submission
+What is this?
+	You have received an alert in the Inbox of your app's dashboard stating that your app has been automatically submitted for App Review. 
+	This means that your live app uses a permission that requires review, your app requires Business Verification, or both.
+
+Apps that have been automatically submitted for App Review include:
+	Live apps that have previously been reviewed and approved but use a permission or permissions that now require App Review
+	Live apps that have never been reviewed but use a permission or permissions that now require App Review
+	Live apps that now require Business Verification
+	Live apps that manage your own assets
+
+What do I need to do?
+	While the submission is pending, you can add or edit the requested permissions, update your Business Use setting on your app's dashboards Setting > Basic, and update your app's information. 
+	After the submission is reviewed, you will receive an alert in your app's dashboard with the result.
+	Note: If you do not need access to the permission that requires review, you can ignore the app review submission. Permission will automatically be revoked 30 days after the review submission.
+
+Possible Proactive Submission Outcomes
+	Approved - Your app has been granted access to the requested permissions. Update your Business Use setting on your app's dashboards Setting > Basic and agree to the Platform Onboarding Terms within 30 days of this outcome or your app will lose access to the requested permissions and access to any data acquired using said permissions.
+
+	Additional Information is Required - The review team needs more information about how your app will use a permission. Your app submission must be updated to include this information within 30 days of this outcome or your app will lose access to the requested permissions and access to any data acquired using said permissions.
+
+	Business Verification - Connect your app to a business, provide business details, and sign a Supplemental Terms Contract on behalf of your business within 30 days of this outcome or your app will lose access to the requested permissions and access to any data acquired using said permissions.
+
+	Not Approved - Your app has lost access to the requested permissions immediately. You must address the issues listed in your app's Review dashboard and resubmit within 30 days to regain access.

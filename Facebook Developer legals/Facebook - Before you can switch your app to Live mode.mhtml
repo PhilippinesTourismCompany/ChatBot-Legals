@@ -1,0 +1,133 @@
+Before you can switch your app to Live mode, we may need to make sure that you will be using our products and data in an approved manner. To achieve this goal, we require many apps to undergo App Review.
+
+In general, the process involves specifying the type of data your app will be requesting from users and describing how you will use that data. Based on your submission, we may follow up and ask you to complete additional steps.
+
+Here are all of the possible steps:
+
+App Review
+Product Review
+Business Verification or Individual Verification
+Supplemental Terms
+Tech Provider Amendment
+End-Business Verification
+You will likely have to complete some combination of these steps. The exact combination depends on the products and features you are implementing, the type of data you are accessing, and how you will use that data.
+
+Who Needs App Review?
+The easiest way to determine if your app will need review is to refer to the product documentation for each product you are implementing. Each documentation set should contain a requirements or app review section which lists the app review steps you will have to complete, as well as any special requirements that are not part of app review.
+
+When To Submit
+You can begin the review process at any time, and you can edit your submission before it is reviewed, but we recommend that you begin a submission only after you have thoroughly tested your app in development mode and you are ready for release. If your app has already gone through App Review and has been approved for specific products, changing product settings or adding new products, permissions, or features, may require you to complete the review process again.
+
+Note that if your app is in Live mode and you want to add new permissions, features, or products, follow our App Review for Live Apps guidelines which will help with submission.
+
+How To Submit
+To begin general App Review, sign into your app's App Dashboard and locate the App Review link in the left-hand navigation menu.
+
+Click it and you should see an interface to begin the process. Keep in mind that some products require Product Review, which you can access and submit from each product's tab in the dashboard. You can submit both general app review and product-specific review at the same time.
+
+How Long Does It Take?
+It typically take us less than one week to process your submission, and often takes only 2–3 days, but may take longer during peak periods. Please note that due to recent changes to the review process and the high volume of submissions, it may take several weeks for submitted apps to complete the review process.
+
+Additional Verification
+After you submit your app for review, we may ask you to verify your identity as a business or as an individual. To do this, we will send a dev alert to your app dashboard inbox. The alert will contain a link that begins the verification process.
+
+App Review
+This is our general review process which many apps must go through before they can be made public. You begin the process in the App Review section of your app's App Dashboard. You will be prompted to select from a list of Login Permissions and Features, and to describe and possibly show us how you will use that data.
+
+
+My Permissions and Features
+Anytime you start a new app review submission, you will see your approved permissions and features. Any newly approved permission and features will appear here.
+
+
+The default and email permissions are pre-approved for all apps, so they always appear here. These are the only two login permissions that do not require app review. All other login permissions and features in the app review submission interface require app review.
+
+Note that product-specific permissions, which you can request through Product Review, do not appear here.
+
+Login Permissions and Features
+Login permissions allow app Users to grant an app access to specific types of data, so you should only select permissions that correspond to the type of data that your app will need. For example, if your app allows Users to see videos they've uploaded to their timelines, you would include the user_videos permission in your submission.
+
+
+All login permissions displayed in the interface require review, and you must provide details and screencasts explaining how you will use the data that they provide access to.
+
+All features require review. Features correspond to specific functionality, products, or APIs. When you select a feature, it will list any login permission that you may need to include in your submission. We also recommend that you read each product's documentation set for detailed App Review instructions.
+
+Details
+Before you can submit for approval, you will be asked to describe how you will use the data provided by each permission or feature. If you set up Test Users to test these permissions or features, it's a good idea to include their login credentials with your submission.
+
+
+Some permissions and features also require a screencast that demonstrates how your app will use the data (or for apps that have no UI, how the data will ultimately be used). The easiest way to show data usage is to set your app to development mode and pull data from your own User account, or from any Users who have an Admin or Developer role on your app.
+
+If your app has no user interface and interacts directly with our APIs, refer to our Server-to-Server Apps document for guidelines when providing details.
+
+Onboarding Terms
+When you submit your app for review, you will be asked to agree to our onboarding terms, which define basic acceptable usage.
+
+
+Product Review
+Some products, such as Messenger and Instagram, require specialized review steps. When you add any of these products, their product tab will appear in your app's dashboard and include an app review section that lists any specialized permissions and instructions.
+
+
+Product review is independent of general app review, so in order to submit for product review, you must begin your submission within from within the respective product's tab.
+
+Business Verification
+Business verification is a process that allows us to verify your business identity. If you are a developer for a business and you are requesting full access to functionality for any of the products listed below, we will send you a dev alert asking you to complete business verification.
+
+Business Manager API
+Extended Facebook Login permissions
+Events API
+Groups API
+Instagram Graph API
+Lead Ads
+Live Video
+Marketing API
+Messenger Platform
+Pages
+Note that if you are a non-business developer and you are requesting access to a limited set of product functionality, you may be given the option to complete individual verification instead.
+
+For business verification, we will ask you to connect your app to a Facebook Business Manager account, and to upload a PDF, JPG, JPEG, or PNG of an official document showing your business or organization's name and physical address. For a list of acceptable documents and supported languages, please refer to our Business Manager help document.
+
+
+Business verification applies to your developer account, so it affects all of your apps. Once you submit an app for review that requires business verification, all of your existing apps and any new apps will be flagged as requiring business verification, and they will inherit your business verification status. This could adversely affect older apps that are already approved for permissions that now require business verification. If an app has already been approved for a permission that did not require business verification when it was approved, and business verification fails, the app will no longer be able use those permissions until you pass business verification.
+
+Individual Verification
+If you submit your app for review and you are asked to complete business verification, but you don't own or run a business, you may be given the option to complete individual verification instead. By completing individual verification, you can gain full or limited access to the products listed below.
+
+Full Access
+Events
+Groups
+Live Video
+Marketing API
+Messenger Platform
+Limited Access
+Facebook Login — you can request approval for all extended login permissions except user_posts or user_tagged_places
+Pages — you cannot request approval for the Page Public Content Access feature, and your app can access no more than 3 of its current User's Pages
+Please note that once you submit for individual verification, these limitation will take effect immediately, even if your submission is rejected.
+
+Verification Steps
+If you are given the option to complete individual verification, you will be asked to:
+
+Provide an email address where you can receive, review, and submit a contract
+Upload an image copy of an ID or document that satisfies these requirements
+Agree to our supplemental terms
+Supplemental Terms
+If we need you to agree to supplemental terms, we will ask you to provide an email address for a Business Signatory. We will email the signatory a link to a site displaying our Supplemental Terms for Extended Platform Products. The signatory can use the site to agree to the terms, after which we will email the signatory a copy of the agreement.
+
+Tech Provider Amendment
+If you are a business that will use our APIs and data to serve other businesses, during Business Verification you will be asked to provide an email address for a Tech Provider Signatory. We will email the signatory a link to our Tech Provider Amendment, which contains heightened provisions on data use policies. The signatory must sign this amendment, which can be done through Adobe Sign.
+
+End-Business Verification
+If you are using our APIs or data to provide service to other businesses, we will require you to share with us who your customers are. We will announce a solution to help you with this soon. If your customers access large scale User data through your app, we may have additional requirements for them to complete.
+
+Submission Tips
+Guidelines
+Refer to our Submission Guidelines for approval tips and common rejection scenarios.
+
+Sample Review
+View our Facebook Login product documentation to see an example of an app review submission for an app requesting access to reviewable permissions.
+
+App Review for Live Apps
+While in Development mode, apps are automatically approved for all login permissions, features, and product-specific features. This allows you to test new functionality and create screencasts, which you can include in your eventual app review submission.
+
+Once you switch your app to Live Mode, however, your app can only use permissions and features that it has been approved for. This means you will be unable to test or create screencasts that demonstrate usage of any unapproved permissions or features.
+
+Although you can solve this problem by switching your app back to Development mode, we recommend that you instead create a Test App and use it to test and capture screencasts of any new permissions and features. When you resubmit your Live app for review, include the test app's ID in any permission or feature usage details.
